@@ -4,4 +4,11 @@
 
 function calculateAverage(grades) {}
 
-console.log(calculateAverage([76, 60, 83, 100, 78]));
+let total = 0
+let grades = [76, 60, 83, 100, 78]
+for(var i = 0; i < grades.length; i++) {
+    if (i < 60) {
+        return ("f")
+    }}
+avg = total / grades.length 
+console.log(Math.round(avg))
