@@ -2,19 +2,27 @@
 // Write a function that takes an array and a value as arguments and
 // returns true if the value is in the array else it returns false.
 
-function itemIsPresent(array, item) {}
+c
+
+function itemIsPresent(mystuff, object) {
+  return mystuff.includes(object)
+}
+
+
 
 // Test case
-const myArray = [
-  'bacon',
-  'purple',
-  'door',
-  'window',
-  'exist',
-  'code',
-  'program',
-  'funky',
+onst lucas = [
+  'roma',
+  'totti',
+  'ddr',
+  'curvaSud',
+  'batigol',
+  'daje',
+  '1927',
+  'spqr',
 ];
 
-console.log(itemIsPresent(myArray, 'funky')); // true
-console.log(itemIsPresent(myArray, 'elephant')); // false
+console.log(itemIsPresent(lucas, "roma"))
+console.log(itemIsPresent(lucas, "lazio")) // this will never be present in any list i do ever
+
+
