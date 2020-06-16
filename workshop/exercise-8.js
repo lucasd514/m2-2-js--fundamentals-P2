@@ -9,6 +9,11 @@
 
 function greet(lst) {
   // lst is an array of strings
-}
-// -------------------------------------------------------------------------
-console.log('Q6 greet()', greet(['David', 'Billy', 'Lisa', 'Jennifer']));
+  function greets(lst) { const newGreet = lst.map(function(e) {
+    return ("Hello   " + e)
+   });
+     return newGreet
+   }
+   greets[array]
+
+   //not sure why this  didnt quite work out
