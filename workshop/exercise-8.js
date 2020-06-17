@@ -7,13 +7,14 @@
 // Adds "Hello " to every element of greet
 // For example: greet(["bob", "eric"]) returns ["Hello bob", "Hello eric"]
 
-function greet(lst) {
-  // lst is an array of strings
-  function greets(lst) { const newGreet = lst.map(function(e) {
-    return ("Hello   " + e)
-   });
-     return newGreet
-   }
-   greets[array]
+// lst is an array of strings
+let array = ["jim", "john", "joe"]
 
-   //not sure why this  didnt quite work out
+function greet(lst) { 
+  const newgreet = lst.map(function(e){
+    return "Yo  " + e;
+  }); console.log(newgreet);
+
+}
+
+
