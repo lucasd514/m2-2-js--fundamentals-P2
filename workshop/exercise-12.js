@@ -8,7 +8,24 @@
 // <90 	is B
 // <100 is A
 
-// Write function here
+function avg(lst) {
+    let total = 0;
+    lst.forEach(function (mark) {
+      total += mark;
+    });
+    return Math.round(total / lst.length);
+  }
+//used solution to understand
+  function ltravg(lst) {
+    let mark = 'A';
+  
+    if (grade < 90) mark = 'B';
+    if (grade < 80) mark = 'C';
+    if (grade < 70) mark = 'D';
+    if (grade < 60) mark = 'F';
+  
+    return ltravg;
+  }
 
 // Call the function with [48, 95, 65, 48, 59, 78, 72, 65]
 

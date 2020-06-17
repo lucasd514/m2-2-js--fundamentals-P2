@@ -4,14 +4,11 @@
 
 // Remember that it requires a function as its parameter.
 
-function calculateAverage(grades) {
-  let sum = 0;
-
-  grades.forEach(function (grade) {
-    sum += grade;
+function avg(lst) {
+  let total = 0;
+  lst.forEach(function (mark) {
+    total += mark;
   });
-
-  return Math.round(sum / grades.length);
+  return Math.round(total / lst.length);
 }
-
 console.log(calculateAverage([76, 60, 83, 100, 78]));
