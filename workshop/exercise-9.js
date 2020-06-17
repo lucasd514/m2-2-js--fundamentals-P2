@@ -8,8 +8,16 @@
 // Otherwise ignore them completely.
 // For example: greeLong(["bob", "daniel"]) returns ["Hello daniel"]
 
-function greetLong(lst) {
-  // lst is an array of strings
+let array = ["jim", "john", "joe"]
+
+
+function greet(lst) { 
+  const newgreet = lst.map(function(e){
+    if (e.length >= 4) {return "Yo  " + e;}
+    
+  }); console.log(newgreet);
+
 }
+
 // -------------------------------------------------------------------------
 console.log('Q7 greetLong()', greetLong(['Scott', 'Bob', 'Ric', 'Jim']));
