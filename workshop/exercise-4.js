@@ -7,9 +7,3 @@ const avg = function(a,b,c,d,e) {
     
 // make certain to console the returned value
 console.log(avg(1,2,4,5,6)
-
-
-
-average = a + b _ c + d + e / 5
-
-.round will be needed

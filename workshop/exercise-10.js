@@ -7,9 +7,11 @@
 // Returns true if every element of lst is of length at least 5.
 // Otherwise returns false.
 function allLong(lst) {
-  // lst is an array of strings
-  let every = function(lst){
-    lst.every(function(e){
-      return e.length >4; 
-    })  }
-    
+  return lst.every(function (word) {
+    return word.length > 4;
+  });
+}
+
+console.log(allLong(test));
+
+let test = ["lucas", "jeff", "tony"];

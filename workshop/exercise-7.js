@@ -3,17 +3,13 @@
 
 // You will also need to verify that your functions work as expected. Be sure to test them. :)
 
-// Q7
-// Returns a new list with all the elements of lst that are length greater than 5
-function keepLong(lst) {
-  const longWords = lst.filter(function (word) {
-    return word.length > 5;
-  });
-  return longWords;
+let keepLong = ["Cyborg", "Robin", "Batman", "Superman", "Aquaman", "Flash"];
 
-  //sortof coded this one properly, then it all crapped out. 
-// -------------------------------------------------------------------------
-console.log(
-  'Q5 keepLong()',
-  keepLong(['Cyborg', 'Robin', 'Batman', 'Superman', 'Aquaman', 'Flash'])
-);
+function keepThese(word) {
+  return word.length > 5;
+}
+//the array needs to be stored somewhere otherwise poof, gone.
+function toBeFiltered(arr) {
+  const newArray = arr.filter(keepThese);
+  return newArray;
+}

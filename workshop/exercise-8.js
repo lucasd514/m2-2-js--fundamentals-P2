@@ -8,13 +8,11 @@
 // For example: greet(["bob", "eric"]) returns ["Hello bob", "Hello eric"]
 
 // lst is an array of strings
-let array = ["jim", "john", "joe"]
+let yer = function (lst) {
+  return lst.map(function (name) {
+    return "yerrrrrr  " + name;
+  });
+};
 
-function greet(lst) { 
-  const newgreet = lst.map(function(e){
-    return "Yo  " + e;
-  }); console.log(newgreet);
-
-}
-
-
+let names = ["lucas", "jp", "toyn"];
+console.log(yer(names));
